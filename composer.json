@@ -1,0 +1,34 @@
+ {  
+      "name": "flowingcloud/blog",  
+      "description": "Yii2 flowingcloud blog",  
+      "keywords": [  
+        "yii2",  
+        "blog"  
+      ],  
+      "homepage": "https://github.com/flowingcloud/blog",  
+      "type": "yii2-extension",  
+      "license": "MIT",  
+      "support": {  
+        "source": "https://github.com/flowingcloud/blog"  
+      },  
+      "authors": [  
+        {  
+          "name": "flowingcloud",  
+          "email": "flowingcloud@lllma.com"  
+        }  
+      ],  
+      "minimum-stability": "stable",  
+      "require": {  
+        "php": ">=5.4.0",  
+        "yiisoft/yii2": ">=2.0.6"  
+         
+      },  
+      "autoload": {  
+        "psr-4": {  
+          "flowingcloud\\": ""  
+        }  
+      },  
+      "config": {  
+        "process-timeout": 1800  
+      }  
+    }
