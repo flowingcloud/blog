@@ -1,0 +1,8 @@
+<?php
+namespace fc\blog;
+use Yii;
+
+class Article extends \fc\blog\Article
+{
+    
+}
